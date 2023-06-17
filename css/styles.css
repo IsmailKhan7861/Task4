@@ -246,10 +246,6 @@ width: 45%;
     font-size: 1.3rem;
 }
 
-
-
-
-
 .work-play-grow{
     background-color: #000000;
     padding-top: 80px;
@@ -290,6 +286,7 @@ width: 45%;
 {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     
 }
 .work-play-grow .second .img-2{
@@ -311,10 +308,43 @@ width: 45%;
 }
 .work-play-grow .second .right .text{
     color:#eb4f3b;
+    position: relative;
+    left:100px;
+    bottom:100px;
+}
+
+.work-play-grow .publishers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    padding-bottom: 50px;
+}
+
+.work-play-grow .publishers .line{
+    border:1px solid #ffffff;
+    width:100px;
+}
+
+.work-play-grow .publishers .publisher{
+    color: #ffffff;
+    font-size: 1.7rem;
+    font-weight: lighter;
 }
 .around-the-world{
     background-color: #ffffff;
     height: 1000px;
+}
+
+.around-the-world .heading {
+    text-align: center;
+    font-size: 3rem;
+    padding: 50px 0px 50px 0px;
+}
+.around-the-world .countries{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
 }
 .footer {
     background-color: #000000;
