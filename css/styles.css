@@ -309,7 +309,7 @@ width: 45%;
 .work-play-grow .second .right .text{
     color:#eb4f3b;
     position: relative;
-    left:100px;
+    left:50px;
     bottom:100px;
 }
 
@@ -333,7 +333,7 @@ width: 45%;
 }
 .around-the-world{
     background-color: #ffffff;
-    height: 1000px;
+    padding-bottom: 100px;
 }
 
 .around-the-world .heading {
@@ -344,8 +344,18 @@ width: 45%;
 .around-the-world .countries{
     display: flex;
     justify-content: space-around;
-    margin-left: 100px;
+    margin-top: 50px;
 }
+.around-the-world .countries .bg{
+    background-image: url(../images/bengaluru/group.png);
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
 .footer {
     background-color: #000000;
     color: #ffffffff;
